@@ -1,0 +1,12 @@
+# rust2rpm.toml
+
+[package]
+# Override fields in the generated RPM .spec file
+summary = "Utility helper for creating block devices in userspace"
+license-files = ["LICENSE-APACHE", "LICENSE-MIT"]
+url = "https://github.com/ublk-org/libublk-rs"
+
+
+[requires]
+
+build = ["clang-devel"]

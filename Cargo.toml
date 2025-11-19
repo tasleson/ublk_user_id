@@ -1,0 +1,15 @@
+[package]
+name = "ublk_user_id"
+version = "0.1.0"
+edition = "2024"
+
+description = "A utility to extrace user id while creating a block device using ublk"
+license = "MIT OR Apache-2.0"
+
+[dependencies]
+libublk = "0.4"
+
+
+[[bin]]
+name = "ublk_user_id"
+path = "src/ublk_user_id.rs"
